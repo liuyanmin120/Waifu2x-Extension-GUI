@@ -19,6 +19,7 @@
 
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#pragma comment (lib,"Advapi32.lib")
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -538,8 +539,8 @@ bool MainWindow::SystemShutDown()
     AdjustTokenPrivileges(hToken, false, &tkp, 0, (PTOKEN_PRIVILEGES)NULL, 0);
     if (GetLastError() != ERROR_SUCCESS) return false;
     // 强制关闭计算机
-    if ( !ExitWindowsEx(EWX_SHUTDOWN | EWX_FORCE, 0))
-        return false;
+//    if ( !ExitWindowsEx(EWX_SHUTDOWN | EWX_FORCE, 0))
+//        return false;
     return true;
 }
 /*

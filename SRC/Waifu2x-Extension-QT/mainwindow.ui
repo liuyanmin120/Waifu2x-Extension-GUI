@@ -1115,9 +1115,6 @@ padding:10px;
                 <property name="singleStep">
                  <number>1</number>
                 </property>
-                <property name="stepType">
-                 <enum>QAbstractSpinBox::DefaultStepType</enum>
-                </property>
                 <property name="value">
                  <number>2</number>
                 </property>
@@ -1169,9 +1166,6 @@ padding:10px;
                 </property>
                 <property name="singleStep">
                  <number>1</number>
-                </property>
-                <property name="stepType">
-                 <enum>QAbstractSpinBox::DefaultStepType</enum>
                 </property>
                 <property name="value">
                  <number>2</number>
@@ -1225,9 +1219,6 @@ padding:10px;
                 <property name="singleStep">
                  <number>1</number>
                 </property>
-                <property name="stepType">
-                 <enum>QAbstractSpinBox::DefaultStepType</enum>
-                </property>
                 <property name="value">
                  <number>2</number>
                 </property>
@@ -1263,9 +1254,6 @@ padding:10px;
                 <property name="singleStep">
                  <number>1</number>
                 </property>
-                <property name="stepType">
-                 <enum>QAbstractSpinBox::DefaultStepType</enum>
-                </property>
                 <property name="value">
                  <number>2</number>
                 </property>
@@ -1294,9 +1282,6 @@ padding:10px;
                 <property name="singleStep">
                  <number>1</number>
                 </property>
-                <property name="stepType">
-                 <enum>QAbstractSpinBox::DefaultStepType</enum>
-                </property>
                 <property name="value">
                  <number>2</number>
                 </property>
@@ -1321,9 +1306,6 @@ padding:10px;
                 </property>
                 <property name="singleStep">
                  <number>1</number>
-                </property>
-                <property name="stepType">
-                 <enum>QAbstractSpinBox::DefaultStepType</enum>
                 </property>
                 <property name="value">
                  <number>2</number>
